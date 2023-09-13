@@ -1,0 +1,29 @@
+#letter{
+  display: none;
+  background-color: aquamarine;
+}
+
+.writers{
+  margin-left: 25cm;
+  font-style: italic;
+  font-size: medium;
+}
+.title{
+  text-decoration: underline;
+  font-size: xx-large;
+ 
+  font-weight: bold;
+  text-align: center;
+}
+.paragraph{
+  font-size: larger;
+}
+.closingtag{
+  margin-left: 25cm;
+  font-style: italic;
+  font-size: medium;
+}
+.receiver{
+  font-style: italic;
+  font-size: medium;
+}
