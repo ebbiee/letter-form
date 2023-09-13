@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <title>Letter form</title>
+</head>
+<body>
+  <div class="container">
+    <form id="formOne">
+      <div class="form-group">
+        <label for="Writer">Writer's address </label>
+        <input id="Writer" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="wstate">State</label>
+        <input id="wstate" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input id="date" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="receiver">Receiver's name</label>
+        <input id="receiver" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="cname">Company's name</label>
+        <input id="cname" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="salutation">Salutation</label>
+        <input id="salutation" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="title">Title </label>
+        <input id="title" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="closing1">Enter the closing tag </label>
+        <input id="closing1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="closing2">Enter your name </label>
+        <input id="closing2" class="form-control" type="text">
+      </div>
+      <button class="btn btn-info" type="submit">Show me my Letter</button>
+      </form>
+      <div id="letter">
+        <div class="writers">
+          <span class="Writer"></span>
+          <span class="wstate"></span>
+          <span class="wdate"></span>
+        </div>
+        <div class="receiver">
+          <span class="receiver"></span>
+          <span class="cname"></span>
+        </div>
+        <span class="salutation"></span>
+        <div class="title">
+          <span class="title"></span>
+        </div>
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam molestiae praesentium ipsa amet ducimus vel aliquam pariatur et qui assumenda quibusdam, reiciendis quod repellendus dolorum quam omnis tempora consequuntur at!
+        </p>
+        <div class="closingtag">
+          <span class="closing1"></span>
+        <span class="closing2"></span>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
